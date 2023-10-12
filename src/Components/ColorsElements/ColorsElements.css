@@ -1,0 +1,21 @@
+.couleur{
+    display: flex;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.couleur p{
+    font-size: 18px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.couleur:hover p {
+    opacity: 1;
+}
+
+.couleur.text-white {
+    color: #fff !important;
+}

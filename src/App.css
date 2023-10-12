@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&family=Young+Serif&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App h1{
+  font-family: 'Young Serif', serif;
+}
+
+.App {
+  font-family: 'Gabarito', sans-serif;
+}
