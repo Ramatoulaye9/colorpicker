@@ -6,7 +6,7 @@ import ColorsElements from "../Components/ColorsElements/ColorsElements";
 function Colors() {
   const [colors, setColors] = useState([]);
   const urlbd = "http://localhost:5000/colors";
-
+ //Cette fonction permet d'obtenir la liste des couleurs
   const getcolors = () => {
     axios
       .get(urlbd)
